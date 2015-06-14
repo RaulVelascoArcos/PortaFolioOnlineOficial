@@ -1,0 +1,42 @@
+.MainMenu{
+	 background: #087590;
+	 height: 3.75em;
+	 left: 0;
+	 right: 0;
+	 position: fixed;
+	 text-align: center;
+	 top: 0;
+}
+.MainMenu-list{
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item{
+	display: inline-block;
+}
+.MainMenu-link{
+	color: #D9364D;
+	margin-right: 2em;
+	text-decoration: none;
+	line-height: 3.75em;
+}
+.MainMenu-link:hover{
+	color: white;
+}
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../img/headerFondo.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding: 0.5em 0;
+	text-align: center;
+}
+.header-imagen{
+	border: 3px solid #017D8B;
+	border-radius: 50%;
+}
+.Header-link,.Header-nombre{
+	color: #EFEACE;
+	text-decoration: none;
+}
