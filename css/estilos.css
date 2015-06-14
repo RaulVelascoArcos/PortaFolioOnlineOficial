@@ -102,25 +102,38 @@
 	background-repeat: no-repeat; 
 	background-position: center;
 	background-size: 100%;
-}
-.Footer-form{
+	padding: 2em 0;
 	text-align: center;
+} 
+.Footer-form{
+	display: inline-block;
+	text-align: center;
+	padding-left: .9em;
+}
+.Footer-letf{
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
 }
 .Footer-formInput,.Footer-textarea{
 	background: white;
 	border: none; 
 	display: block;
 	border-radius: 1em;
-	padding: .7em;
+	padding: .5em;
 	margin: 0 auto 1em;
 }
 .Footer-textarea{
-	resize:none;
+	resize: none;
 }
 .Footer-button{
-	color: white;
-	border: none;
 	background: orange;
-	padding: .6em;
-	border-radius: 2em;
+	border: none;
+	color: white;
+	border-radius:1em;
+	padding: .5em .7em;
+}
+.Footer-title,.Footer-description{
+	color: white;
 }
