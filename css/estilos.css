@@ -7,8 +7,10 @@
 	text-align: center;
 	padding: .5em;
 }
-
-
+.-u-contrainerDefaul{ 
+	width: 20em;
+	margin: 0 auto;  
+}
 /*MainMenu*/
 .MainMenu{
 	 background: #087590;
