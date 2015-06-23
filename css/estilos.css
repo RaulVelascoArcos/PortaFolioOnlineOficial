@@ -22,6 +22,7 @@
 	 top: 0;
 }
 .MainMenu-list{
+	background: #2A5DF4;
 	margin: 0;
 	padding: 0;
 }
@@ -35,7 +36,7 @@
 	line-height: 3.75em;
 }
 .MainMenu-link:hover{
-	color: white;
+	color: #343538;
 }
 /*Header*/
 .Header{
@@ -52,7 +53,7 @@
 	border-radius: 50%;
 }
 .Header-link,.Header-nombre{
-	color: #EFEACE;
+	color: #2A5DF4;
 	text-decoration: none;
 }
 .Header-link{
