@@ -47,6 +47,7 @@
 	background-size: 100%;
 	padding: 0.5em 0;
 	text-align: center;
+	width: 100%;
 }
 .header-imagen{
 	border: 3px solid #017D8B;
@@ -64,6 +65,9 @@
 	font-size: 1.3em;
 	font-weight: 300;
 	margin: 0;
+}
+.Header-menuBar{
+	display: none;
 }
 /*Profile*/
 .Profile{
@@ -139,4 +143,8 @@
 }
 .Footer-title,.Footer-description{
 	color: white;
+}
+/*Media*/
+@media screen and(max-width:800px;){
+
 }
