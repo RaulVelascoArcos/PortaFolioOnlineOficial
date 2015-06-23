@@ -41,7 +41,7 @@
 /*Header*/
 .Header{
 	margin-top: 3.75em;
-	background-image: url('../img/headerFondo.jpeg');
+	background-image: url('../img/fondo.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -105,7 +105,7 @@
 }
 /*footer*/
 .Footer{
-	background-image: url('../img/headerFondo.jpeg');
+	background-image: url('../img/fondoFooter.jpg');
 	background-repeat: no-repeat; 
 	background-position: center;
 	background-size: 100%;
