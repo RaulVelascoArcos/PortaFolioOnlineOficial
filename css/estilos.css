@@ -105,7 +105,7 @@
 }
 /*footer*/
 .Footer{
-	background-image: url('../img/fondoFooter.jpg');
+	background-image: url('../img/fondo.jpg');
 	background-repeat: no-repeat; 
 	background-position: center;
 	background-size: 100%;
@@ -143,6 +143,8 @@
 }
 .Footer-title,.Footer-description{
 	color: #DEE2E4;
+	font-size: 1.4em;
+	font-weight: 300;
 }
 /*Media*/
 @media screen and(max-width:800px;){
