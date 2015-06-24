@@ -22,7 +22,7 @@
 	 top: 0;
 }
 .MainMenu-list{
-	background: #2A5DF4;
+	background: #008B80;
 	margin: 0;
 	padding: 0;
 }
@@ -30,13 +30,13 @@
 	display: inline-block;
 }
 .MainMenu-link{
-	color: #D9364D;
+	color: #004257;
 	margin-right: 2em;
 	text-decoration: none;
 	line-height: 3.75em;
 }
 .MainMenu-link:hover{
-	color: #343538;
+	color: #BECFD3;
 }
 /*Header*/
 .Header{
@@ -50,7 +50,7 @@
 	width: 100%;
 }
 .header-imagen{
-	border: 3px solid #017D8B;
+	border: 3px solid #008B80;
 	border-radius: 50%;
 }
 .Header-link,.Header-nombre{
