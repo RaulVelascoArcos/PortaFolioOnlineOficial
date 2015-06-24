@@ -118,6 +118,8 @@
 	padding-left: .9em;
 }
 .Footer-letf{
+	background: rgba(124,137,128,.6);
+	border-radius: 0 1em;
 	display: inline-block;
 	width: 32em;
 	text-align: center;
