@@ -54,7 +54,7 @@
 	border-radius: 50%;
 }
 .Header-link,.Header-nombre{
-	color: #2A5DF4;
+	color: #DEE2E4;
 	text-decoration: none;
 }
 .Header-link{
@@ -62,7 +62,7 @@
 	font-weight: bold;
 }
 .Header-nombre{
-	font-size: 1.3em;
+	font-size: 1.4em;
 	font-weight: 300;
 	margin: 0;
 }
@@ -142,7 +142,7 @@
 	padding: .5em .7em;
 }
 .Footer-title,.Footer-description{
-	color: white;
+	color: #DEE2E4;
 }
 /*Media*/
 @media screen and(max-width:800px;){
