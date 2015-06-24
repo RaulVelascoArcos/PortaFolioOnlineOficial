@@ -135,7 +135,7 @@
 	resize: none;
 }
 .Footer-button{
-	background: orange;
+  	background: rgba(124,137,128,.6);
 	border: none;
 	color: white;
 	border-radius:1em;
