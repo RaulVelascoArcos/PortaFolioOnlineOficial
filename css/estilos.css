@@ -10,11 +10,13 @@
 /*u-title*/
 .u-title{
 	border-bottom: 2px  dashed #087590;
-	color: #FF004E;
-	font-size: 1.5em;
+	font-family: 'Courgette', cursive;
+	color: #008B80;
+	font-size: 1.8em;
 	font-weight: 400;
 	text-align: center;
 	padding: .5em;
+
 }
 .-u-contrainerDefaul{ 
 	width: 20em;
@@ -40,9 +42,11 @@
 }
 .MainMenu-link{
 	color: #004257;
+	font-family: 'Courgette', cursive;
 	margin-right: 2em;
 	text-decoration: none;
 	line-height: 3.75em;
+
 }
 .MainMenu-link:hover{
 	color: #BECFD3;
