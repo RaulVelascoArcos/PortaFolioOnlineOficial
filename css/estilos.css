@@ -184,6 +184,9 @@ input.Footer-formInput {
 	border-radius:1em;
 	padding: .5em .7em;
 }
+.Footer-button:hover{
+	background: rgba(84,115,81,1);
+}
 .Footer-title,.Footer-description{
 	color: #DEE2E4;
 	font-size: 1.4em;
