@@ -1,3 +1,12 @@
+/*Inportacion de iconos*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
 /*u-title*/
 .u-title{
 	border-bottom: 2px  dashed #087590;
@@ -73,16 +82,38 @@
 .Profile{
 	text-align: center;
 }
-.Profile-link{
+.icon{
 	display: inline-block;
-	background: orange;
-	border-radius: 2em;
-	color: white;
+	color: #bdbdbd;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	font-size: 1.47em;
+	line-height: 2em;
+	background-color: #fff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0px 3px 0px #bdbdbd, 0px 3px 10px #bababa;
+	-webkit-transition:background-color 250ms ease 0s;
+	transition:background-color 250ms ease 0s;
 	text-decoration: none;
-	padding: .5em 1em;
-	margin-right: 1em; 
 	margin-top: .5em;
+}
+.zocial-facebook{margin-left: -8px}
 
+.icon.facebook:hover{background-color: #4986c7;}
+.twitter:hover{background-color: #4cb6e8;}
+.linkedin:hover{background-color: #29a0cc;}
+
+.icon:hover{
+  color: #fff;
+  box-shadow: 0px 3px 0px #686868, 0px 3px 10px #7e7e7e;
+}
+
+.icon:active{
+  box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;
+  top: 3px;
 }
 /*.Work*/
 .Work{
