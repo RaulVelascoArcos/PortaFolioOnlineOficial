@@ -82,6 +82,11 @@
 .Profile{
 	text-align: center;
 }
+.Profile-description{
+	color: #637371;
+	margin: 0 auto;
+	width: 50%;
+}
 .icon{
 	display: inline-block;
 	color: #bdbdbd;
@@ -158,8 +163,11 @@
 	text-align: center;
 	vertical-align: top;
 }
+input.Footer-formInput {
+  width: 11em;
+}
 .Footer-formInput,.Footer-textarea{
-	background: white;
+	background: rgba(124,137,128,.6);
 	border: none; 
 	display: block;
 	border-radius: 1em;
@@ -170,7 +178,7 @@
 	resize: none;
 }
 .Footer-button{
-  	background: rgba(124,137,128,.6);
+  	background: rgba(124,137,128,1);
 	border: none;
 	color: white;
 	border-radius:1em;
