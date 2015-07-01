@@ -146,6 +146,9 @@
 	bottom: -8em;
 
 }
+.WorkMenu-list{
+	display: inline-block;
+}
 /*footer*/
 .Footer{
 	background-image: url('../img/fondo.jpg');
